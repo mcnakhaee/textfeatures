@@ -1,5 +1,0 @@
-pandas
-spacy
-pyenchant
-textblob
-nltk

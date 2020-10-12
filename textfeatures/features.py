@@ -50,9 +50,8 @@ def extract_features(df,text_col = 'text',
     df['polarity'] = df['textblob'].apply(lambda x : x.sentiment.polarity)
     df['subjectivity'] = df['textblob'].apply(lambda x : x.sentiment.subjectivity)
 
-
     if n_hashtags == True:
-        df['n_hashtags'] = df[text_col].apply(lambda x :len(extract_hashtags(x)))
+        df['n_hashtags'] = df[text_col].apply(lambda x:len(extract_hashtags(x)))
     if n_unique_hashtags == True:
         df['n_unique_hashtags'] = df[text_col].apply(lambda x :len(set(extract_hashtags(x))))
     if   n_mentions == True:
