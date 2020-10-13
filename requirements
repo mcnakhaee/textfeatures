@@ -6,3 +6,5 @@ nltk
 spacy
 pyenchant
 textblob
+textstat
+langdetect

@@ -1,7 +1,7 @@
 from setuptools import setup
 import setuptools
 setup(name='textfeatures',
-      version='0.1.1',
+      version='0.1.2',
       url="https://github.com/mcnakhaee/palmerpenguins",
       description="A python package to extract features from text data ",
       long_description=open('DESCRIPTION.rst').read(),
